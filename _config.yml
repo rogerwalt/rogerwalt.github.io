@@ -8,7 +8,7 @@
 # Site settings
 title: Yet Another Developers Blog
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "{{ site.github.url }}" # the base hostname & protocol for your site
+url: "https://rogerwalt.github.io" # the base hostname & protocol for your site
 github_username:  rogerwalt
 
 # Build settings
