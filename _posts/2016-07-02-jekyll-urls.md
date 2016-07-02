@@ -14,4 +14,4 @@ The URL to `main.css` was generated the wrong way, the solution was to edit `hea
 <link rel="stylesheet" href="{{ site.github.url }}/css/main.css">
 {% endhighlight %}
 
-Now I'm still figuring out where the Feed and About page links are generated...
+If you don't like the About page, just delete the file `about.md` in the Jekyll base directory.
