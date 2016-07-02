@@ -6,7 +6,7 @@ categories: php
 ---
 You know how it is, lazyness is king.
 The full story is of course available in the [Jekyll Documentation](https://jekyllrb.com/docs/github-pages/).
-Long story short: Replace your `{{ site.url }}` tags by `{{ site.github.url }}`.
+Long story short: Replace your {% raw %}`{{ site.url }}`{% endraw %} tags by {% raw %}`{{ site.github.url }}`{% endraw %}.
 
 The URL to `main.css` was generated the wrong way, the solution was to edit `head.html` and put this in:
 
